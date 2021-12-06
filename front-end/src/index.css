@@ -1,0 +1,22 @@
+body {
+  background: linear-gradient(to right, rgb(195, 20, 50), rgb(36, 11, 54));
+}
+.card img {
+  height: 10rem;
+  object-fit: cover;
+}
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bi-eye-fill {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  cursor: pointer;
+}
+.bi-eye-fill-color {
+  color: rgb(23, 219, 233);
+}
